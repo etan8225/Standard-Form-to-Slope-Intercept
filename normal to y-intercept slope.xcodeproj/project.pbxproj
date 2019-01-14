@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FCA508FF21E7FFB20011292E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA508FE21E7FFB20011292E /* main.cpp */; };
 		FCA5090621E94ADD0011292E /* problemSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA5090521E94ADD0011292E /* problemSolver.cpp */; };
+		FCE64DFC21EC059100E13D40 /* questionAskers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCE64DFA21EC059100E13D40 /* questionAskers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		FCA508FB21E7FFB10011292E /* normal to y-intercept slope */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "normal to y-intercept slope"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA508FE21E7FFB20011292E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FCA5090521E94ADD0011292E /* problemSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = problemSolver.cpp; sourceTree = "<group>"; };
+		FCD62CF721ED3F2800F3E484 /* headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
+		FCE64DFA21EC059100E13D40 /* questionAskers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = questionAskers.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			children = (
 				FCA508FE21E7FFB20011292E /* main.cpp */,
 				FCA5090521E94ADD0011292E /* problemSolver.cpp */,
+				FCE64DFA21EC059100E13D40 /* questionAskers.cpp */,
+				FCD62CF721ED3F2800F3E484 /* headers.h */,
 			);
 			path = "normal to y-intercept slope";
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			files = (
 				FCA5090621E94ADD0011292E /* problemSolver.cpp in Sources */,
 				FCA508FF21E7FFB20011292E /* main.cpp in Sources */,
+				FCE64DFC21EC059100E13D40 /* questionAskers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
