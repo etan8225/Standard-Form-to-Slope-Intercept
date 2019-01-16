@@ -1,28 +1,25 @@
 #include <iostream>
 
-int question1()
+long double question1()
 {
-    int y;
-    std::cout << "Enter the y value." << std::endl;
+    std::cout << "Enter the y value: ";
+    long double y;
     std::cin >> y;
-
     return y;
 }
 
-int question2()
+long double question2()
 {
-    int x;
-    
-    std::cout << "Please enter the x value." << std::endl;
+    std::cout << "Enter the x value: ";
+    long double x;
     std::cin >> x;
-    
     return x;
 }
 
-int question3()
+long double question3()
 {
-    int b;
-    std::cout << "Lastly, enter the b value." << std::endl;
-    std::cin >> b;
+    std::cout << "Enter the b value: ";
+    long double b;
+    std::cin >> b; std::cout << " " << std::endl;
     return b;
 }

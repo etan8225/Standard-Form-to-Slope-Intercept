@@ -1,12 +1,9 @@
 #ifndef questionAsker1_2_3_h
 #define questionAsker1_2_3_h
 
-void problemSolver(int x, int b, int y);
-
-int question1();
-
-int question2();
-
-int question3();
+void numberOrganizer(long double x, long double b, long double y);
+long double question1();
+long double question2();
+long double question3();
 
 #endif
